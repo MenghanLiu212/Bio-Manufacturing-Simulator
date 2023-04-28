@@ -724,7 +724,7 @@ for row in range(0,len(df_design)):
     group_num = row
     #crreate this folder
     current_directory = os.getcwd()
-    current_directory = os.path.join(current_directory, r'results_100')
+    current_directory = os.path.join(current_directory, r'results_100_test')
     final_directory = os.path.join(current_directory, r'Design_{}'.format(group_num))
     if not os.path.exists(final_directory):
         os.mkdir(final_directory)
